@@ -8,7 +8,7 @@ bot.start((ctx) => {
     return ctx.reply(
       '👋 Hi! I am your Telegram bot.\n\n➕ Add me to your group, and I will welcome every new member!',
       Markup.inlineKeyboard([
-        Markup.button.url('➕ Add to Group', 'https://t.me/YourBotUsername?startgroup=true'),
+        Markup.button.url('➕ Add to Group', 'https://t.me/AdBeastadsBot?startgroup=true'),
         Markup.button.url('🌐 Visit Website', 'https://example.com')
       ])
     );
